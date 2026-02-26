@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Producciones Remi | Artes Gráficas en MDF</title>
+
+<style>
+
+body{
+margin:0;
+font-family:'Segoe UI', Arial, sans-serif;
+background:#f4f6f8;
+color:#333;
+scroll-behavior:smooth;
+}
+
+/* HEADER */
+
+header{
+background:#0f3b36;
+color:white;
+padding:15px 40px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+position:fixed;
+width:100%;
+top:0;
+z-index:1000;
+box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+.logo{
+font-size:22px;
+font-weight:600;
+letter-spacing:2px;
+}
+
+nav a{
+color:white;
+margin-left:25px;
+text-decoration:none;
+font-weight:500;
+transition:0.3s;
+}
+
+nav a:hover{
+color:#c8a23a;
+}
+
+/* HERO */
+
+.hero{
+height:100vh;
+background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+url("https://images.unsplash.com/photo-1600585154340-be6161a56a0c");
+background-size:cover;
+background-position:center;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+padding:20px;
+}
+
+.hero h1{
+font-size:45px;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:20px;
+margin-bottom:30px;
+}
+
+.btn{
+background:#c8a23a;
+padding:15px 35px;
+color:black;
+text-decoration:none;
+border-radius:30px;
+font-weight:bold;
+transition:0.3s;
+}
+
+.btn:hover{
+background:white;
+}
+
+/* SECTIONS */
+
+section{
+padding:100px 40px;
+text-align:center;
+}
+
+h2{
+font-size:32px;
+margin-bottom:40px;
+color:#0f3b36;
+}
+
+/* GRID */
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:30px;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:15px;
+box-shadow:0 10px 25px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.card img{
+width:100%;
+border-radius:10px;
+margin-bottom:15px;
+}
+
+/* CONTACTO */
+
+.contacto p{
+font-size:18px;
+margin:10px 0;
+}
+
+/* FOOTER */
+
+footer{
+background:#0f3b36;
+color:white;
+padding:25px;
+text-align:center;
+font-size:14px;
+}
+
+/* WHATSAPP FLOAT */
+
+.whatsapp{
+position:fixed;
+bottom:25px;
+right:25px;
+background:#25D366;
+color:white;
+padding:18px;
+border-radius:50%;
+font-size:22px;
+text-decoration:none;
+box-shadow:0 5px 15px rgba(0,0,0,0.3);
+transition:0.3s;
+}
+
+.whatsapp:hover{
+transform:scale(1.1);
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">PRODUCCIONES REMI</div>
+<nav>
+<a href="#inicio">Inicio</a>
+<a href="#productos">Productos</a>
+<a href="#contacto">Contacto</a>
+</nav>
+</header>
+
+<section class="hero" id="inicio">
+<h1>Fabricantes de Bases Escolares y Portarretratos</h1>
+<p>Productos en MDF, PVC y personalizados de alta calidad</p>
+<a class="btn" href="https://wa.me/525564302680">
+Solicitar Cotización
+</a>
+</section>
+
+<section id="productos">
+<h2>Nuestros Productos</h2>
+
+<div class="grid">
+
+<div class="card">
+<img src="porta1.jpg">
+<h3>Portarretratos</h3>
+<p>Modelos personalizados 4x6" ideales para recuerdos escolares.</p>
+</div>
+
+<div class="card">
+<img src="base1.jpg">
+<h3>Bases Escolares</h3>
+<p>Diferentes modelos en MDF y PVC con acabados profesionales.</p>
+</div>
+
+<div class="card">
+<img src="rueda.jpg">
+<h3>Rueda de la Fortuna</h3>
+<p>Ideal para eventos, dulces y activaciones promocionales.</p>
+</div>
+
+</div>
+</section>
+
+<section id="contacto" class="contacto">
+<h2>Contacto</h2>
+<p><strong>WhatsApp:</strong> 55 6430 2680</p>
+<p><strong>Ubicación:</strong> Ciudad de México</p>
+<p>Atención personalizada y envíos a todo México.</p>
+</section>
+
+<footer>
+Producciones Remi © 2026 | Todos los derechos reservados
+</footer>
+
+<a class="whatsapp" href="https://wa.me/525564302680">
+💬
+</a>
+
+</body>
+</html>
